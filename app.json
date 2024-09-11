@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "Movies-app-scheme",
     "name": "Movies-app",
     "slug": "Movies-app",
     "version": "1.0.0",
@@ -22,6 +23,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
